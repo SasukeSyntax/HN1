@@ -52,19 +52,19 @@ h2 {
 
 
 
-/* Responsive Grid: displays cards side-by-side */
+/* Responsive Grid: */
 .card-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(240px, 2fr));
   gap: 20px;
   padding: 24px;
-  background-color: #1a1a0e; /* dark greenish-black background */
+  background-color: #1a1a0e; 
   font-family: sans-serif;
 }
 
 /* Base Card */
 .product-card {
-  background-color: #24260e; /* card bottom info background */
+  background-color: #24260e;
   border: 1px solid #3c3e1a;
   overflow: hidden;
   display: flex;
