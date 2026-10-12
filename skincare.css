@@ -86,37 +86,6 @@ h2 {
   display: block;
 }
 
-/* Top Floating Pill Badge (Optional) */
-/* .badge {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  background: rgba(90, 70, 110, 0.7);
-  color: #fff;
-  font-size: 11px;
-  padding: 4px 10px;
-  border-radius: 12px;
-  backdrop-filter: blur(4px);
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-} */
-
-/* Bottom Strip on Image ("2L+ UNITS SOLD", etc.) */
-/* .banner {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background-color: #0b0c03;
-  color: #f5f5f5;
-  font-size: 11px;
-  font-weight: 600;
-  letter-spacing: 1px;
-  text-align: center;
-  padding: 6px 0;
-  text-transform: uppercase;
-} */
-
 /* Card Content */
 .card-info {
   padding: 16px;
@@ -151,4 +120,8 @@ h2 {
   font-size: 12px;
   margin: 0;
   line-height: 1.4;
+}
+
+.diddy {
+  margin: 10px;
 }
