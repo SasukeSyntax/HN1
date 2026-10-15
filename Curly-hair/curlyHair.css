@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0f0f0f;
+    color: #dedede;
+}
+
+.paras {
+    margin: 10px;
+}
+
+
+
+
+/* Responsive Grid: */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 2fr));
+  gap: 20px;
+  padding: 24px;
+  background-color: #1a1a0e; 
+  font-family: sans-serif;
+}
+
+/* Base Card */
+.product-card {
+  background-color: #24260e;
+  border: 1px solid #3c3e1a;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Image Container */
+.card-image-wrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1 / 1; /* keeps all images square */
+  background-color: #f7f7f7;
+}
+
+.card-image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* displays product photo neatly without stretching */
+  display: block;
+}
+
+/* Card Content */
+.card-info {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+/* Clickable Link Title */
+.product-title {
+  color: #e9e9dd;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.3;
+  text-decoration: none;
+  transition: color 0.2s ease;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2; /* Satisfies the linter warning */
+  overflow: hidden;
+}
+
+.product-title:hover {
+  color: #a8b832; /* Subtle highlight color on hover */
+  text-decoration: underline;
+}
+
+/* Short Subtitle / Description */
+.product-subtext {
+  color: #9d9e8f;
+  font-size: 12px;
+  margin: 0;
+  line-height: 1.4;
+}
