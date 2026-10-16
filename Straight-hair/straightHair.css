@@ -78,8 +78,8 @@ div {
 }
 
 .bigLine {
-  font-family: 'Playfair Display';
-  font-style: italic;
+  font-family: 'Playfair Display SC';
+  font-style: normal;
   font-weight: 400 900;
   font-display: swap;
   src: url(https://fonts.gstatic.com/s/playfairdisplay/v40/nuFkD-vYSZviVYUb_rj3ij__anPXDTnojUk72xU.woff2) format('woff2');

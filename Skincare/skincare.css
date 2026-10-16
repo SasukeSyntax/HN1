@@ -9,18 +9,6 @@ body {
     color: #dedede;
 }
 
-.headLine {
-    font-size: 3rem;
-    margin: 10px;
-
-    font-family: 'Playfair Display SC';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/playfairdisplaysc/v18/ke87OhoaMkR6-hSn7kbHVoFf7ZfgMPr_lbw8HOsyE4s.woff2) format('woff2');
-  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
-}
-
 #skincarebasics {
     font-family: 'Lato';
   font-style: normal;
@@ -36,9 +24,9 @@ body {
   background-color: #0f0f0f;
 }
 
-h2 {
-    font-family: 'Playfair Display';
-  font-style: italic;
+h1 {
+    font-family: 'Playfair Display SC';
+  font-style: normal;
   font-weight: 400 900;
   font-display: swap;
   src: url(https://fonts.gstatic.com/s/playfairdisplay/v40/nuFkD-vYSZviVYUb_rj3ij__anPXDTnojUk72xU.woff2) format('woff2');
