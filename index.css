@@ -208,20 +208,12 @@ p {
     font-size: 3rem;
     margin: 0;
   }
+
+  p {
+    font-size: 10px;
+  }
+
 }
-
-
-/* 
-next plans for next week
-
-1. fixing the main page code
-2. containing the texts in card design 
-3. adding some themes and fixing the current theme 
-4. maybe adding more products 
-5. adding animations 
-
-*/
-
 
 /* .text-card-demo {
   display: flex;
@@ -238,3 +230,18 @@ next plans for next week
 
   background-color: #0aa32396;
 } */
+
+
+
+
+
+/* 
+next plans for next week
+
+1. fixing the main page code
+2. containing the texts in card design 
+3. adding some themes and fixing the current theme 
+4. maybe adding more products 
+5. adding animations 
+
+*/
