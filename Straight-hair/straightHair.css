@@ -77,6 +77,11 @@ div {
   margin: 10px;
 }
 
+/* #mainPara {
+  margin: 0;
+  padding: 10px;
+} */
+
 .bigLine {
   font-family: 'Playfair Display SC';
   font-style: normal;
@@ -97,7 +102,7 @@ p {
   unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
 
   font-size: 18px;
-  width: 95%;
+  width: 97%;
 }
 
 @media (max-width:700px) {
@@ -105,4 +110,32 @@ p {
   p {
     font-size: 15px;
   }
+}
+
+.paras {
+  width: 90%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  border: 1px solid grey;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 95%;
+
+  flex-direction: column;
+}
+
+.dih {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 20px;
 }

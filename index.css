@@ -157,7 +157,7 @@ p {
   unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
 
   font-size: 18px;
-  width: 95%;
+  /* width: 95%; */
 }
 
 #healthcare-basics {
@@ -213,6 +213,20 @@ p {
     font-size: 15px;
   }
 
+
+  .flexCardDiv {
+    width: 100%;
+  }
+
+  .mainPage-textCards {
+    width: 95%;
+  }
+
+  #basics {
+    font-size: 37px;
+  } 
+  
+
 }
 
 
@@ -222,15 +236,15 @@ p {
   /* display: flex;
   justify-content: center;
   align-items: center;
-  height: auto;
-  width: 90%; */
+  height: auto; */
 
-  margin-top: 20px;
-  margin-bottom: 20px;
+  width: 90%;
+  margin-top: 10px;
+  margin-bottom: 10px;
 
-  border: 1px solid whitesmoke;
+  border: 1px solid grey;
   padding: 10px;
-  border-radius: 1rem;
+  border-radius: 5px;
 }
 
 .flexCardDiv {
@@ -243,7 +257,14 @@ p {
   flex-direction: column;
 }
 
-
+#startingPara {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 95%;
+  
+  flex-direction: column;
+}
 
 /* 
 next plans for next week
