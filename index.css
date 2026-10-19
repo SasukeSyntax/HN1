@@ -215,23 +215,33 @@ p {
 
 }
 
-/* .text-card-demo {
-  display: flex;
-  width: 95%;
-  height: auto;
-  margin: 10px;
 
-  align-items: center;
+/* card designs */
+
+.mainPage-textCards {
+  /* display: flex;
   justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 90%; */
 
-  border: 1px solid rgb(25, 102, 17);
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  border: 1px solid whitesmoke;
   padding: 10px;
-  border-radius: 10px;
+  border-radius: 1rem;
+}
 
-  background-color: #0aa32396;
-} */
+.flexCardDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width: 95%;
 
-
+  flex-direction: column;
+}
 
 
 
