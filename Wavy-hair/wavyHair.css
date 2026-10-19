@@ -12,7 +12,7 @@ body {
 .paras {
     margin: 10px;
 }
-
+  
 .bigLine {
     font-family: 'Playfair Display SC';
     font-style: normal;
@@ -116,4 +116,12 @@ p {
   font-size: 12px;
   margin: 0;
   line-height: 1.4;
+}
+
+
+@media (max-width: 700px) {
+
+  p {
+    font-size: 15px;
+  }
 }
