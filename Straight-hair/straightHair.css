@@ -120,6 +120,14 @@ p {
   border: 1px solid grey;
   padding: 10px;
   border-radius: 5px;
+
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.paras:hover {
+  transform: translateY(-8px); 
+  
+  border: 1px solid rgb(242, 242, 242);
 }
 
 .body {
@@ -127,9 +135,10 @@ p {
   justify-content: center;
   align-items: center;
   height: auto;
-  width: 95%;
+  width: 100%;
 
   flex-direction: column;
+  margin-top: 0;
 }
 
 .dih {
