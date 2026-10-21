@@ -21,6 +21,8 @@ body {
   transform: translateY(20px);
   transition: opacity 1.5s ease-out, transform 1.5s ease-out;
   will-change: opacity, transform; /* Optimises browser rendering */
+
+  padding: 30px;
 }
 
 .bodyhehe.is-visible {
@@ -166,6 +168,7 @@ body {
 
 #basics {
   font-size: 50px;
+
 }
 
 .josephSans {
@@ -230,7 +233,7 @@ p {
 }
 
 #disclaimer {
-  font-weight: bold;
+  /* font-weight: bold; */
   text-decoration: underline;
   font-size: 20px;
 
@@ -341,7 +344,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 95%;
+  width: 100%;
   
   flex-direction: column;
 }
