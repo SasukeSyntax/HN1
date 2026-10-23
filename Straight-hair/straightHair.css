@@ -60,6 +60,14 @@ body {
   font-size: 20px;
 }
 
+.nav-links li {
+  transition: transform 0.1s ease;
+}
+
+.nav-links li:hover {
+  transform: scale(1.15);
+}
+
 .brandMark a {
   text-decoration: none;
   color: #dedede;

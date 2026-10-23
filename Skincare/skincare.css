@@ -7,8 +7,7 @@
 body {
     background-color: #0f0f0f;
     color: #dedede;
-
-    padding-top: 60px;
+    padding-top: 6vh;
 }
 
 .navbar {
@@ -23,7 +22,7 @@ body {
 
   background-color: #0f0f0f;
 
-   z-index: 99999;
+  z-index: 99999;
   box-sizing: border-box;
 
   border-bottom: 1px solid rgb(90, 90, 90);
@@ -60,6 +59,14 @@ body {
   font-size: 20px;
 }
 
+.nav-links li {
+  transition: transform 0.1s ease;
+}
+
+.nav-links li:hover {
+  transform: scale(1.15);
+}
+
 .brandMark a {
   text-decoration: none;
   color: #dedede;
@@ -72,6 +79,15 @@ body {
   font-display: swap;
   src: url(https://fonts.gstatic.com/s/playfairdisplaysc/v18/ke87OhoaMkR6-hSn7kbHVoFf7ZfgMPr_lbw8HOsyE4s.woff2) format('woff2');
   unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+.menu-toggle {
+  display: none; 
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1.8rem;
+  cursor: pointer;
 }
 
 
@@ -124,7 +140,7 @@ body {
 }
 
 @media (max-width: 768px) {
-  /* .menu-toggle {
+  .menu-toggle {
     display: block; 
   }
 
@@ -155,7 +171,7 @@ body {
   }
 
   /* Add a .active class via JavaScript to toggle visibility */
-  /* .nav-links.active {
+  .nav-links.active {
     display: flex;
   }
 
@@ -164,11 +180,7 @@ body {
 
     margin: 0.5rem 0;
 
-  } */ 
-
-  .navbar {
-    display: none;
-  }
+  } 
 
 }
 
