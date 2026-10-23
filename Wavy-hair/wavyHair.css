@@ -9,7 +9,7 @@ body {
     color: #dedede;
   height: 100vh;
 
-  padding-top: 60px;
+  padding-top: 6vh;
 }
 
 .navbar {
@@ -83,18 +83,19 @@ body {
   unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
 
-/* .menu-toggle {
+.menu-toggle {
   display: none; 
   background: none;
   border: none;
   color: #fff;
   font-size: 1.8rem;
   cursor: pointer;
-} */
+}
 
 @media (max-width: 768px) {
-  /* .menu-toggle {
+  .menu-toggle {
     display: block; 
+    padding-left: 25px;
   }
 
   .navbar {
@@ -102,7 +103,7 @@ body {
   }
 
   .brandMark {
-    width: 80%;
+    width: 70%;
     display: flex;
     justify-content: center;
   }
@@ -124,7 +125,7 @@ body {
   }
 
   /* Add a .active class via JavaScript to toggle visibility */
-  /* .nav-links.active {
+  .nav-links.active {
     display: flex;
   }
 
@@ -133,12 +134,7 @@ body {
 
     margin: 0.5rem 0;
 
-  } */ 
-
-  .navbar {
-    display: none;
   }
-
 }
 
 
