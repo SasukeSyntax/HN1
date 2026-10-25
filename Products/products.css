@@ -190,6 +190,7 @@ body {
 
 .playfair:hover {
   transform: scale(1.15);
+  text-decoration: underline;
 }
 
 .playfair a{

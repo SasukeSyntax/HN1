@@ -123,7 +123,7 @@ body {
     animation: easeInOnLoad 1.2s cubic-bezier(0.25, 1, 0.5, 1) forwards;
   }
 
-  /* Add a .active class via JavaScript to toggle visibility */
+ 
   .nav-links.active {
     display: flex;
   }
@@ -161,14 +161,14 @@ body {
 .card-image-wrapper {
   position: relative;
   width: 100%;
-  aspect-ratio: 1 / 1; /* keeps all images square */
+  aspect-ratio: 1 / 1; 
   background-color: #f7f7f7;
 }
 
 .card-image-wrapper img {
   width: 100%;
   height: 100%;
-  object-fit: contain; /* displays product photo neatly without stretching */
+  object-fit: contain; 
   display: block;
 }
 
@@ -189,12 +189,12 @@ body {
   display: -webkit-box;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
-  line-clamp: 2; /* Satisfies the linter warning */
+  line-clamp: 2; 
   overflow: hidden;
 }
 
 .product-title:hover {
-  color: #a8b832; /* Subtle highlight color on hover */
+  color: #a8b832; 
   text-decoration: underline;
 }
 
@@ -300,7 +300,7 @@ p {
    opacity: 0;
   transform: translateY(20px);
   transition: opacity 1.5s ease-out, transform 1.5s ease-out;
-  will-change: opacity, transform; /* Optimises browser rendering */
+  will-change: opacity, transform; 
 }
 
 .bodyhehe.is-visible {
@@ -311,7 +311,7 @@ p {
 @keyframes easeInOnLoad {
   from {
     opacity: 0;
-    transform: translateY(20px); /* Subtle lift */
+    transform: translateY(20px); 
   }
   to {
     opacity: 1;
